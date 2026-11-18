@@ -1,0 +1,119 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/api-gateway/src",
+  "monorepo": true,
+  "root": "apps/api-gateway",
+  "compilerOptions": {
+    "deleteOutDir": true
+  },
+  "projects": {
+    "api-gateway": {
+      "type": "application",
+      "root": "apps/api-gateway",
+      "entryFile": "main",
+      "sourceRoot": "apps/api-gateway/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/api-gateway/tsconfig.app.json"
+      }
+    },
+    "auth-service": {
+      "type": "application",
+      "root": "apps/auth-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth-service/tsconfig.app.json"
+      }
+    },
+    "lead-service": {
+      "type": "application",
+      "root": "apps/lead-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/lead-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/lead-service/tsconfig.app.json"
+      }
+    },
+    "document-service": {
+      "type": "application",
+      "root": "apps/document-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/document-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/document-service/tsconfig.app.json"
+      }
+    },
+    "rfp-service": {
+      "type": "application",
+      "root": "apps/rfp-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/rfp-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rfp-service/tsconfig.app.json"
+      }
+    },
+    "opportunity-service": {
+      "type": "application",
+      "root": "apps/opportunity-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/opportunity-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/opportunity-service/tsconfig.app.json"
+      }
+    },
+    "approval-service": {
+      "type": "application",
+      "root": "apps/approval-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/approval-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/approval-service/tsconfig.app.json"
+      }
+    },
+    "assignment-service": {
+      "type": "application",
+      "root": "apps/assignment-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/assignment-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/assignment-service/tsconfig.app.json"
+      }
+    },
+    "compliance-service": {
+      "type": "application",
+      "root": "apps/compliance-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/compliance-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/compliance-service/tsconfig.app.json"
+      }
+    },
+    "delivery-service": {
+      "type": "application",
+      "root": "apps/delivery-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/delivery-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/delivery-service/tsconfig.app.json"
+      }
+    },
+    "notification-service": {
+      "type": "application",
+      "root": "apps/notification-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/notification-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/notification-service/tsconfig.app.json"
+      }
+    },
+    "reporting-service": {
+      "type": "application",
+      "root": "apps/reporting-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/reporting-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/reporting-service/tsconfig.app.json"
+      }
+    }
+  }
+}
