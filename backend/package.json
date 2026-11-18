@@ -1,0 +1,44 @@
+{
+  "name": "dealplus-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start api-gateway",
+    "start:dev": "nest start api-gateway --watch",
+    "start:gateway": "nest start api-gateway --watch",
+    "start:auth": "nest start auth-service --watch",
+    "start:leads": "nest start lead-service --watch",
+    "start:documents": "nest start document-service --watch",
+    "start:rfp": "nest start rfp-service --watch",
+    "start:opportunities": "nest start opportunity-service --watch",
+    "start:approvals": "nest start approval-service --watch",
+    "start:assignments": "nest start assignment-service --watch",
+    "start:compliance": "nest start compliance-service --watch",
+    "start:delivery": "nest start delivery-service --watch",
+    "start:notifications": "nest start notification-service --watch",
+    "start:reporting": "nest start reporting-service --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.0",
+    "@nestjs/core": "^10.4.0",
+    "@nestjs/platform-express": "^10.4.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.0",
+    "@nestjs/schematics": "^10.1.0",
+    "@nestjs/testing": "^10.4.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
